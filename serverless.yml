@@ -1,4 +1,4 @@
-service: scrapeogtag-dev
+service: scrapeogtag3-dev
 provider:
   name: aws
   runtime: nodejs12.x
@@ -13,8 +13,3 @@ functions:
           cors:
             origins:
               - '*'
-          response:
-            statusCode: 200
-            headers:
-              Access-Control-Allow-Origin: "*"
-              Access-Control-Allow-Credentials: true
